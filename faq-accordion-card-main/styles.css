@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) fixed;
+    font-size: 14px;
+    font-family: 'Kumbh Sans';
+    color:hsl(238, 29%, 16%);
+}
+
+.content{
+    background-image: url(images/illustration-woman-online-desktop.svg),url(images/bg-pattern-desktop.svg);    
+    background-position-x: -5rem, -36rem;
+    background-position-y: 64%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: auto;
+    border-radius: 25px;
+    margin: 10% 18%;
+    padding: 5%;
+    text-align: right;
+}
+
+.content-text{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.content-img{
+    display: inline;
+    position: absolute;
+    left: 12%;
+    top: 49%;
+}
+
+.faq-header{
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+.list-group-item{
+    padding-left: 0%;
+    padding-bottom: 2px;
+}
+
+.fas{
+    color:hsl(14, 88%, 65%);
+}
+
+.light-color-text{
+    color: hsl(240, 6%, 50%);
+}
+
+.heavy-font{
+    font-weight: 700;
+    color: hsl(237, 12%, 33%);
+}
